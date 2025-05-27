@@ -23,14 +23,14 @@
     }
 
     .card {
-      background-color: rgba(255, 255, 255, 0.95);
+      background-color: #fff;
       color: #222;
       padding: 40px 30px;
       border-radius: 15px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
       text-align: center;
       width: 90%;
-      max-width: 400px;
+      max-width: 420px;
     }
 
     h1 {
@@ -43,15 +43,11 @@
       margin-bottom: 25px;
     }
 
-    .button-group {
+    .button-container {
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 8px;
-      overflow: hidden;
-      width: fit-content;
-      margin: 0 auto;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      gap: 12px;
     }
 
     .telegram-btn {
@@ -60,23 +56,16 @@
       border: none;
       padding: 12px 20px;
       font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
       display: flex;
       align-items: center;
-      gap: 10px;
-      cursor: pointer;
-      transition: all 0.3s ease;
+      gap: 8px;
+      transition: 0.3s ease;
     }
 
     .telegram-btn:hover {
       background-color: #007ad6;
-    }
-
-    .logo-box {
-      background-color: #111;
-      padding: 10px 15px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
 
     .telegram-icon {
@@ -113,14 +102,12 @@
   <div class="card">
     <h1>Sahabet Orijinal Telegram Burada</h1>
     <p>Sahabet 2025 Resmi Telegram Adresi</p>
-    <div class="button-group">
+    <div class="button-container">
       <button class="telegram-btn" onclick="window.location.href='https://t.me/+DSrCvfBKtig0MzY0'">
         <img class="telegram-icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
         Telegram'a Git
       </button>
-      <div class="logo-box">
-        <img class="logo-icon" src="https://i.ibb.co/ycFdzvpt/saha-logo.png" alt="Sahabet Logo">
-      </div>
+      <img class="logo-icon" src="https://i.ibb.co/ycFdzvpt/saha-logo.png" alt="Sahabet Logo">
     </div>
   </div>
 </body>
