@@ -20,7 +20,6 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
-      position: relative;
     }
 
     .card {
@@ -32,7 +31,6 @@
       text-align: center;
       width: 90%;
       max-width: 400px;
-      z-index: 1;
     }
 
     h1 {
@@ -49,7 +47,7 @@
       background-color: #0d99ff;
       color: white;
       border: none;
-      padding: 12px 25px;
+      padding: 12px 20px;
       font-size: 16px;
       border-radius: 8px;
       cursor: pointer;
@@ -66,13 +64,17 @@
     }
 
     .logo-icon {
-      width: 24px;
+      width: 26px;
       height: auto;
     }
 
     .telegram-icon {
       width: 20px;
-      height: 20px;
+      height: auto;
+    }
+
+    .btn-text {
+      font-weight: 600;
     }
 
     @media screen and (max-width: 480px) {
@@ -86,11 +88,11 @@
 
       button {
         font-size: 14px;
-        padding: 10px 20px;
+        padding: 10px 16px;
       }
 
       .logo-icon {
-        width: 20px;
+        width: 22px;
       }
 
       .telegram-icon {
@@ -105,8 +107,8 @@
     <p>Sahabet 2025 Resmi Telegram Adresi</p>
     <button onclick="window.location.href='https://t.me/+DSrCvfBKtig0MzY0'">
       <img class="logo-icon" src="https://i.ibb.co/ycFdzvpt/saha-logo.png" alt="Sahabet Logo">
+      <span class="btn-text">Telegram'a Git</span>
       <img class="telegram-icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
-      Telegram'a Git
     </button>
   </div>
 </body>
